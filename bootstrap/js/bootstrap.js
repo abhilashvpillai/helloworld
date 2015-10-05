@@ -11,7 +11,6 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 
-
 +function ($) {
   'use strict';
 
@@ -45,7 +44,8 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
-  $(function () {
+
+$(function () {
     $.support.transition = transitionEnd()
 
     if (!$.support.transition) return
@@ -60,6 +60,7 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
 
 
 +function ($) {
