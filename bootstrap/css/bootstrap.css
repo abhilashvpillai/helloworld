@@ -3,56 +3,51 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,main,menu,nav,section,
 summary {
   display: block;
 }
-audio,
-canvas,
-progress,
-video {
+
+audio,canvas,progress,video {
   display: inline-block;
   vertical-align: baseline;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
-[hidden],
-template {
+
+[hidden],template {
   display: none;
 }
+
 a {
   background-color: transparent;
 }
-a:active,
-a:hover {
+
+a:active,a:hover {
   outline: 0;
 }
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
-b,
-strong {
+
+b,strong {
   font-weight: bold;
 }
+
 dfn {
   font-style: italic;
 }
+
 h1 {
   margin: .67em 0;
   font-size: 2em;
