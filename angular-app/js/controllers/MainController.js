@@ -25,9 +25,8 @@ app.controller('MainController',['$scope',function($scope){
     pubdate: new Date('2016','02','01'),
     cover: 'http://www.readthespirit.com/bookstore/wp-content/uploads/sites/5/2012/08/Our-Lend-front-cover-info.jpg',
     likes:0
-  } 
-];
+  }];
   $scope.plusOne = function(index) {
     $scope.products[index].likes+=1;
   };
-                   }]);
+}]);
