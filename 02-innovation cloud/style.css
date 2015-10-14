@@ -58,6 +58,8 @@ body {
   padding: 10px 40px;
   text-decoration: none;
   transition: background .5s;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .btn:hover, .nav ul li:hover {
@@ -137,7 +139,7 @@ body {
 
 .footer p { 
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   height: 80px;
   line-height: 80px;
   margin: 0;

@@ -33,6 +33,7 @@ p {
   font-size: 150px;
   color: #fff;
   margin: 0;
+  padding-top: 70px;
 }
 
 .main p {
@@ -45,7 +46,7 @@ p {
   background-color: #1c1c1c;
   color: #fff;
   font-size: 18px;
-  padding: 8px 30px;
+  padding: 15px 40px;
   text-decoration: none;
   display: inline-block;
 }
