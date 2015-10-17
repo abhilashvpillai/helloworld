@@ -4,7 +4,6 @@ body { 	font-family: 'Roboto', sans-serif; 	font-weight: 100; }
 
 .container { 	margin: 0 auto; 	max-width: 940px;  	padding: 0 10px;  }
 
-
 /* Header */
 .header {
   background: url("http://greencloudcomputers.com/wp-content/uploads/2013/05/Cloud-Computing.jpg") no-repeat center center;
@@ -30,19 +29,17 @@ body { 	font-family: 'Roboto', sans-serif; 	font-weight: 100; }
 /* Nav */
 .nav { background: #000; height: 80px; width: 100%; }
 
-.nav ul { height: 80px; list-style: none; margin: 0 auto;   padding: 0;
-}
+.nav ul { height: 80px; list-style: none; margin: 0 auto;   padding: 0; }
 
 .nav ul li { color: #fff; display: inline-block; list-style: none;	line-height: 80px; height: 80px; padding: 0 10px; transition: background .5s; }
 
 /* Main */
 .main .container { margin: 80px auto; }
 
-
 /* Jumbotron */
 .jumbotron {
 	background: url("http://www.publicpolicy.telefonica.com/blogs/wp-content/uploads/2011/12/CloudComputing.jpg");  
-  background-size: cover; height: 600px; 
+	background-size: cover; height: 600px; 
 }
 
 .jumbotron .container { position: relative; top: 220px; }
