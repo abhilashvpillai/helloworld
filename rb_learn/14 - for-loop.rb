@@ -1,6 +1,9 @@
 =begin
 	... exclude the highest number
 	..  include the highest number
+	
+	for	- in  -  end
+	
 =end
 
 for num in 1...10

@@ -4,7 +4,10 @@ do (to open the block) and end (to close it).
 
 	next
 	break
-
+	
+	loop	-	do - end
+	
+	
 =end
 
 i = 10
