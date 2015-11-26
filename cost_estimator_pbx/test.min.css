@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 4 spaces.
+        on line 10 of test.css
+
+5:     padding:0;	
+6:     outline: 0;
+7: }
+8: 
+9: body{
+10: 	background:#fff;	
+11:     color:#2f3c71;
+12:     font-family: 'Open Sans', sans-serif;
+13: }
+14: 
+15: 
+
+Backtrace:
+test.css:10
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:483:in `block in tabulate'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:441:in `each'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:441:in `each_with_index'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:441:in `tabulate'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:406:in `_to_tree'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:410:in `run'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:52:in `parse'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:19:in `parse!'
+D:/Server/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.4.16/bin/sass:13:in `<top (required)>'
+D:/Server/Ruby200/bin/sass:23:in `load'
+D:/Server/Ruby200/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 10 of test.css\A \A 5:     padding:0;	\A 6:     outline: 0;\A 7: }\A 8: \A 9: body{\A 10: 	background:#fff;	\A 11:     color:#2f3c71;\A 12:     font-family: 'Open Sans', sans-serif;\A 13: }\A 14: \A 15: "; }
